@@ -99,7 +99,7 @@ import quill from "./quilljs.js";
           "class",
           "p-2 bg-slate-800 relative overflow-scroll shadow-xl rounded"
         );
-        code.innerHTML = `<code class='language-javascript'>${holdCode}</code>`;
+        code.innerHTML = `<code class='language-sql'>${holdCode}</code>`;
         code.prepend(copyContainer);
       });
     }
