@@ -10,6 +10,8 @@ OmeXa Storage is a simple web application for managing tasks and notes. It provi
 
 ## Getting Started
 
+**Visit OmeXa:** https://brijesh-py.github.io/OmeXa/
+
 1. Clone the repository:
 
 ```bash
