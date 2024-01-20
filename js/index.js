@@ -117,7 +117,7 @@ import quill from "./quilljs.js";
       title.addEventListener("click", () => {
         singleTaskOutputContainer.className =
           "h-[75vh] my-3 singleTaskOutputContainer";
-        document.title = title.dataset.title;
+        document.title = `OmeXa - ${title.dataset.title}`
         taskTitleOutput.innerHTML = title.dataset.title;
         taskContentOutput.innerHTML = storage.getContent(index);
         newTaskInputContainer.className =
